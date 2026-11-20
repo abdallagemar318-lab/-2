@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    direction: rtl;
+    font-family: "IBM Plex Sans Arabic", "Cairo", system-ui, -apple-system, sans-serif;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: "Cairo", "IBM Plex Sans Arabic", sans-serif;
+  }
+
+  .font-literary {
+    font-family: "Amiri", "Noto Naskh Arabic", serif;
+  }
+
+  .font-tabular {
+    font-family: "IBM Plex Mono", "IBM Plex Sans Arabic", monospace;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

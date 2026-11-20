@@ -1,0 +1,6 @@
+{
+  "name": "منصة بيان التعليمية",
+  "description": "منصة تعليمية عربية متكاملة مع نظام إدارة وتخصيص واجهات الطلاب المركزية والتحكم بالصلاحيات والتحقق المستقبلي عبر واتساب.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
